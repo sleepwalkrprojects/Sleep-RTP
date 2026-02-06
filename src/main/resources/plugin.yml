@@ -1,0 +1,18 @@
+name: SleepRTP
+version: 1.0
+main: com.sleeprtp.SleepRTP
+api-version: 1.19
+author: YourName
+description: A simple random teleport plugin
+
+commands:
+  rtp:
+    description: Randomly teleport to a safe location
+    usage: /<command>
+    permission: sleeprtp.use
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  sleeprtp.use:
+    description: Allows players to use the /rtp command
+    default: true

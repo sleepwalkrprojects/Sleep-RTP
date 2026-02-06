@@ -1,0 +1,10 @@
+# Sleep RTP Configuration
+
+# Maximum radius for random teleportation (in blocks)
+max-radius: 5000
+
+# Minimum radius for random teleportation (in blocks)
+min-radius: 500
+
+# Maximum attempts to find a safe location
+max-attempts: 10
